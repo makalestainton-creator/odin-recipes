@@ -1,0 +1,84 @@
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+*{
+    outline: 2px solid red;
+}
+
+body{
+    background-color: white;
+}
+
+h1{
+    font-size: 30px;
+}
+
+#homepage{
+    box-sizing: border-box;
+    background-image: url(../recipe-images/wheat-1845835_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.main-title, .links{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#homepage .main-title{
+    color: rgb(55, 173, 55);
+    font-weight: bold;
+    width: 600px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+#homepage .main-title{
+    font-size: 60px;
+}
+.links ul{
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+    width: 600px;
+    margin: 0px;
+    justify-content: center;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+.link1,
+.link2,
+.link3{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+}
+.link1{
+ background-color: rgb(100, 100, 212);   
+}
+
+.link2{
+   background-color: brown;
+}
+
+.link3{
+   background-color: rgb(177, 33, 81);
+}   
+
+.links a:hover{
+    background-color: black;
+    color: red;
+}
+
+
+
+
+
